@@ -5,3 +5,16 @@
 - [Online Editor](https://www.overleaf.com/)
 - [Learn](https://www.overleaf.com/learn)
 - [Neovim Setup](https://github.com/latex-lsp/texlab)
+
+# Simple Makefile for Latex file 
+```Makefile
+output: %.tex
+	latex test.tex	
+
+pdf: %.dvi
+	pdflatex test.tex 
+
+view: 
+	open test.pdf 
+```
+- Created a playground for Latex just like I did for C++

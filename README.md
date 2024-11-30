@@ -4,3 +4,4 @@
 - [Full Tutorial](https://www.youtube.com/watch?v=ydOTMQC7np0)
 - [Online Editor](https://www.overleaf.com/)
 - [Learn](https://www.overleaf.com/learn)
+- [Neovim Setup](https://github.com/latex-lsp/texlab)

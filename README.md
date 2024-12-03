@@ -27,3 +27,4 @@ view:
 	latex test.tex; pdflatex test.tex; open test.pdf
 ```
 - Yeah! That's all there is to it!
+- This target runs the commands simultaneously. Therefore, the files get updated and the new PDF file is opened.

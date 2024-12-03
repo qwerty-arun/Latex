@@ -18,3 +18,12 @@ view:
 	open test.pdf 
 ```
 - Created a playground for Latex just like I did for C++
+- The above makefile created some problems
+- It kept displaying the old pdf even when I wrote into the file adding changes. My target was just `view`.
+- This target just displays the pdf and doesn't update anything no matter what.
+# New Makefile
+```Makefile
+view:
+	latex test.tex; pdflatex test.tex; open test.pdf
+```
+- Yeah! That's all there is to it!
